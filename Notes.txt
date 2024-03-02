@@ -1,0 +1,67 @@
+Curso em Vídeo:
+*Sinais de igual*
+
+O símbolo de igual (=) em Python é usado para atribuição de valores a variáveis.
+
+"==" (duplo sinal de igual): é usado para verificar se dois valores são iguais. Retorna `True` se os valores forem
+iguais e `False` caso contrário.
+
+--------------------------------------Curso Python #08 - Utilizando Módulos--------------------------------------------
+
+para importar apenas uma coisa específica de tal biblioteca, usa se: from (biblioteca) import (item), (item2)
+
+
+import math comandos;
+    ceil = arredonta pra cima
+    floor = arredonta pra baixo
+    # a diferença do round para esses é que o round ele arredonda um número para o inteiro mais próximo, enquanto as ou-
+    # tras fazer arredondamentos para cima ou para baixo
+    trunc = ele elimina da virgula pra frente (truncar)
+    pow = potencia
+    sqrt = calcula raiz quadrada
+    factorial = calculo fatorial
+
+import random comandos;
+    random.random = gera um numero float aleatorio entre 0 e 1
+    random.randint = gera apenas numeros inteiros, para especificar use radint(1, 10) por exemplo, ele gera um numero de 1 a 10
+
+--------------------------------------Curso Python #09 - Manipulando Texto---------------------------------------------
+
+Fatiamento:
+frase = Curso em Video Python
+frase[9] = Ele ira pegar uma letra da frase (o numero entre krls 2.0 é a letra)
+frase[9:13] = ele vai pegar da caracter 9 até o 12 e nao considera o  13
+frase[9:21:2] = até o 9 e o 21 ele vai fazer a msm coisa, porem pulando de 2 em 2
+frase[:5] = é a msm coisa q escrever 0:5
+frase[15:] = fatiar do 15 até o final
+frase[9::3] = vai começar no 9, ir até o final, porem pulando de 3 em 3
+
+Análise:
+len(frase) = ele vai me mostrar o comprimento da frase
+frase.count("o") = ele vai contar quantas vezes na frase aparece a letra "o" em minusculo
+frase.count("o", 0, 13) = vai acontecer a msm coisa porem ja com o Fatiamento
+frase.find("deo") = vai dizer em que momento começou "deo" na frase
+"Curso" in frase = ele ira retornar True se estiver a palavra curso na string, caso contrario, False
+
+Transformaçao:
+frase.replace("Python", "Android") = ira procurar a palavra Python e trocar por Android
+frase.upper() = deixa tudo em maiusculo
+frase.lower() = deixa tudo em minusculo
+frase.capitalize() = deixa apenas o primeiro caracter da string em maiusculo, o resto tudo em minusculo
+frase.title() = ele faz o capitalize, porem palavra por palavra, depois dos espaços
+frase.strip() = ele ira remover todos os espaços inuteis no inicio e no fim de uma string
+frase.rstrip() = ele ira remover somente os ultimos espaços(os espaços da direta)
+frase.lstrip() = ele ira remover somente os primeiro espaços(os espaços da esquerda)
+
+Dvisão:
+frase.split() = ele vai criar uma divisao, onde tiver espaços na string, tipo "curso", "em", "video"
+
+Junção:
+"-".join(frase) = vai juntar todos os elementos de frase e ira usar o separador entre aspas, Curso-em-Video
+
+print("""bla
+bla""") = com 3 aspas ele printa uma frase inteira
+
+--------------------------------------Curso Python #10 - Condições (Parte 1)---------------------------------------------
+if = se
+else = caso contrario
