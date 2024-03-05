@@ -65,3 +65,20 @@ bla""") = com 3 aspas ele printa uma frase inteira
 --------------------------------------Curso Python #10 - Condições (Parte 1)---------------------------------------------
 if = se
 else = caso contrario
+
+--------------------------------------Curso Python #11 - Cores no Terminal-----------------------------------------------
+text                    background
+ 
+30      black       preto      40
+31      red         vermelho   41
+32      green       verde      42
+33      yellow      amarelo    43
+34      blue        azul       44
+35      Magenta     Magenta    45
+36      cyan        ciano      46
+37      grey        cinza      47
+97      white       branco     107
+
+para começar o código de cor é:\033[style;text;backgroundm  #o "m" é para o código de cores
+e para determinar até onde o código de cores vai, adicione um: \033[m no final de onde vc quer que pare, exemplo:
+    print("\033[33;44mOlá\033[m, Mundo!") nesse exemplo apenas o "Olá" ficara colorido
