@@ -63,6 +63,9 @@ print("""bla
 bla""") = com 3 aspas ele printa uma frase inteira
 
 --------------------------------------Curso Python #10 - Condições (Parte 1)---------------------------------------------
+condiçao simples: contem apenas um if
+condiçao composta: contem if's e else's
+
 if = se
 else = caso contrario
 
@@ -82,3 +85,7 @@ text                    background
 para começar o código de cor é:\033[style;text;backgroundm  #o "m" é para o código de cores
 e para determinar até onde o código de cores vai, adicione um: \033[m no final de onde vc quer que pare, exemplo:
     print("\033[33;44mOlá\033[m, Mundo!") nesse exemplo apenas o "Olá" ficara colorido
+
+--------------------------------------Curso Python #012 - Condições Aninhadas--------------------------------------------
+elif = caso contrario, se...
+*basicamente ele fica entre o if e o else
