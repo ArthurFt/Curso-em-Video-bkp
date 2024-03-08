@@ -69,6 +69,9 @@ condiçao composta: contem if's e else's
 if = se
 else = caso contrario
 
+from datetime import date comandos;
+    date.today().year = esse comando pega o ano de acordo com o calendario
+
 --------------------------------------Curso Python #11 - Cores no Terminal-----------------------------------------------
 text                    background
  
