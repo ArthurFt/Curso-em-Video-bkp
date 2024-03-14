@@ -1,10 +1,4 @@
-Curso em Vídeo:
-*Sinais de igual*
-
-O símbolo de igual (=) em Python é usado para atribuição de valores a variáveis.
-
-"==" (duplo sinal de igual): é usado para verificar se dois valores são iguais. Retorna `True` se os valores forem
-iguais e `False` caso contrário.
+*diferente em python é !=
 
 --------------------------------------Curso Python #08 - Utilizando Módulos--------------------------------------------
 
