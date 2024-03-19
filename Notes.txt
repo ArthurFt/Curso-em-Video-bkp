@@ -21,37 +21,39 @@ import random comandos;
 
 --------------------------------------Curso Python #09 - Manipulando Texto---------------------------------------------
 
-Fatiamento:
-frase = Curso em Video Python
-frase[9] = Ele ira pegar uma letra da frase (o numero entre krls 2.0 é a letra)
-frase[9:13] = ele vai pegar da caracter 9 até o 12 e nao considera o  13
-frase[9:21:2] = até o 9 e o 21 ele vai fazer a msm coisa, porem pulando de 2 em 2
-frase[:5] = é a msm coisa q escrever 0:5
-frase[15:] = fatiar do 15 até o final
-frase[9::3] = vai começar no 9, ir até o final, porem pulando de 3 em 3
+Fatiamento;
+    frase = Curso em Video Python
+    frase[9] = Ele ira pegar uma letra da frase (o numero entre krls 2.0 é a letra)
+    frase[9:13] = ele vai pegar da caracter 9 até o 12 e nao considera o  13
+    frase[9:21:2] = até o 9 e o 21 ele vai fazer a msm coisa, porem pulando de 2 em 2
+    frase[:5] = é a msm coisa q escrever 0:5
+    frase[15:] = fatiar do 15 até o final
+    frase[9::3] = vai começar no 9, ir até o final, porem pulando de 3 em 3
 
-Análise:
-len(frase) = ele vai me mostrar o comprimento da frase
-frase.count("o") = ele vai contar quantas vezes na frase aparece a letra "o" em minusculo
-frase.count("o", 0, 13) = vai acontecer a msm coisa porem ja com o Fatiamento
-frase.find("deo") = vai dizer em que momento começou "deo" na frase
-"Curso" in frase = ele ira retornar True se estiver a palavra curso na string, caso contrario, False
+Análise;
+    len(frase) = ele vai me mostrar o comprimento da frase
+    frase.count("o") = ele vai contar quantas vezes na frase aparece a letra "o" em minusculo
+    frase.count("o", 0, 13) = vai acontecer a msm coisa porem ja com o Fatiamento
+    frase.find("deo") = vai dizer em que momento começou "deo" na frase
+    "Curso" in frase = ele ira retornar True se estiver a palavra curso na string, caso contrario, False
 
-Transformaçao:
-frase.replace("Python", "Android") = ira procurar a palavra Python e trocar por Android
-frase.upper() = deixa tudo em maiusculo
-frase.lower() = deixa tudo em minusculo
-frase.capitalize() = deixa apenas o primeiro caracter da string em maiusculo, o resto tudo em minusculo
-frase.title() = ele faz o capitalize, porem palavra por palavra, depois dos espaços
-frase.strip() = ele ira remover todos os espaços inuteis no inicio e no fim de uma string
-frase.rstrip() = ele ira remover somente os ultimos espaços(os espaços da direta)
-frase.lstrip() = ele ira remover somente os primeiro espaços(os espaços da esquerda)
+Transformaçao;
+    frase.replace("Python", "Android") = ira procurar a palavra Python e trocar por Android
+    frase.upper() = deixa tudo em maiusculo
+    frase.lower() = deixa tudo em minusculo
+    frase.capitalize() = deixa apenas o primeiro caracter da string em maiusculo, o resto tudo em minusculo
+    frase.title() = ele faz o capitalize, porem palavra por palavra, depois dos espaços
+    frase.strip() = ele ira remover todos os espaços inuteis no inicio e no fim de uma string
+    frase.rstrip() = ele ira remover somente os ultimos espaços(os espaços da direta)
+    frase.lstrip() = ele ira remover somente os primeiro espaços(os espaços da esquerda)
 
-Dvisão:
-frase.split() = ele vai criar uma divisao, onde tiver espaços na string, tipo "curso", "em", "video"
+Divisão;
+    frase.split() = ele vai criar uma divisao, onde tiver espaços na string, tipo "curso", "em", "video"
 
-Junção:
-"-".join(frase) = vai juntar todos os elementos de frase e ira usar o separador entre aspas, Curso-em-Video
+Junção;
+    "-".join(frase) = vai juntar todos os elementos de frase e ira usar o separador entre aspas, Curso-em-Video
+
+*lista.sort() #O método .sort() ordena os números da lista em ordem crescente, tornando o programa mais compacto
 
 print("""bla
 bla""") = com 3 aspas ele printa uma frase inteira
@@ -88,4 +90,13 @@ elif = caso contrario, se...
 *basicamente ele fica entre o if e o else
 
 -----------------------------------Curso Python #013 - Estrutura de repetição for----------------------------------------
-
+for c in range(): basicamente cria um loop, a letra "c" representa uma variavel qualquer, e o range o intervalo que ira
+ficar em loop.  
+*e da pra usar condiçao dentro do for, por exemplo;
+    for c in range(0,3):
+        if num == 3:
+            pega
+        print
+        e mais alguma coisa aqui
+range(0, 7, 2) = o 2 significa q o intervalo vai ir de 2 em 2, mesma coisa c fosse o 3, o 4 ou qualquer outro numero
+*e em vez de o ultimo numero ser 2, pode ser uma variavel tambem(desde que a variavel seja um int)
