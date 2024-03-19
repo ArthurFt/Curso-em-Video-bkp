@@ -86,3 +86,6 @@ e para determinar até onde o código de cores vai, adicione um: \033[m no final
 --------------------------------------Curso Python #012 - Condições Aninhadas--------------------------------------------
 elif = caso contrario, se...
 *basicamente ele fica entre o if e o else
+
+-----------------------------------Curso Python #013 - Estrutura de repetição for----------------------------------------
+
