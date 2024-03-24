@@ -14,3 +14,4 @@ elif escolha == 2:
 
 else:
     print("Por favor, insira um número válido (1 ou 2).")
+

@@ -1,6 +1,6 @@
 s = 0
-for c in range(0, 6):
-    n = int(input("Digite um valor: "))
+for c in range(1, 7):
+    n = int(input(f"Digite o {c} valor: "))
     if n % 2 == 0:
         s += n
-print(f"A soma dos valores pares é igual a: {s}")
+print(f"A soma dos valores pares é igual a {s}")
