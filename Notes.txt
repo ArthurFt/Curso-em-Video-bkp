@@ -100,3 +100,7 @@ ficar em loop.
         e mais alguma coisa aqui
 range(0, 7, 2) = o 2 significa q o intervalo vai ir de 2 em 2, mesma coisa c fosse o 3, o 4 ou qualquer outro numero
 *e em vez de o ultimo numero ser 2, pode ser uma variavel tambem(desde que a variavel seja um int)
+
+-----------------------------------Curso Python #014 - Estrutura de repetição while---------------------------------------
+while = significa enquanto
+not in "blablabla"  = nao estiver em
